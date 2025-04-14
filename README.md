@@ -1,11 +1,11 @@
 
-# 🎵 MelodAI - MIDI Music Generation with GPT
+#  MelodAI - MIDI Music Generation with GPT
 
 This project uses a GPT-style transformer to generate symbolic music based on MIDI data, using the `miditok` library and Magenta's classical datasets. This guide walks you through setting up the environment using **WSL (Windows Subsystem for Linux)**.
 
 ---
 
-## 🖥️ WSL Setup Instructions
+##  WSL Setup Instructions
 
 ### 1. Install WSL (if not already installed)
 
@@ -30,7 +30,7 @@ sudo apt update && sudo apt upgrade -y
 
 ---
 
-## 🐍 Python Environment Setup
+##  Python Environment Setup
 
 ### 3. Install Python and pip (if not available)
 
@@ -57,7 +57,7 @@ source venv/bin/activate
 
 ---
 
-## 📦 Install Dependencies
+##  Install Dependencies
 
 ### 6. Install Python Packages
 
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📂 Directory Structure (Typical)
+##  Directory Structure (Typical)
 
 ```
 project/
@@ -84,7 +84,7 @@ project/
 
 ---
 
-## 🚀 Running the Project
+##  Running the Project
 
 Use Jupyter, VS Code, or run scripts directly in terminal.
 
@@ -97,7 +97,7 @@ jupyter notebook
 
 ---
 
-## ✅ Notes
+##  Notes
 
 - Ensure all MIDI files are placed in the `data/` folder.
 - Use `tokenizer.train()` if building a new tokenizer from scratch.
@@ -105,7 +105,7 @@ jupyter notebook
 
 ---
 
-## 🧼 Deactivating the Environment
+##  Deactivating the Environment
 
 ```bash
 deactivate
@@ -113,7 +113,7 @@ deactivate
 
 ---
 
-## 📜 License
+##  License
 
 MIT License. See `LICENSE` for details.
 ```
