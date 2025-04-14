@@ -1,0 +1,13 @@
+# Data and output directories
+data/
+outputs/
+checkpoints/
+tokenizer_configs/
+
+# Python virtual environment
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+pyfluidsynth/
