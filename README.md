@@ -81,7 +81,26 @@ project/
 ├── requirements.txt
 └── main.ipynb             # Training or generation notebook
 ```
+---
+##  Download the MAESTRO Dataset
 
+Download the **MAESTRO** dataset from the official Magenta site:
+
+🔗 [https://magenta.tensorflow.org/datasets/maestro](https://magenta.tensorflow.org/datasets/maestro)
+
+Once downloaded, extract the contents into the following directory path:
+
+```bash
+MelodAI/
+└── data/
+    └── maestro/
+        └── maestro-v3.0.0/
+            ├── 2004/
+            │   ├── MIDI-Unprocessed_04_R1_2004_01.mid
+            │   └── ...
+            ├── 2006/
+            └── ...
+```
 ---
 
 ##  Running the Project
